@@ -18,6 +18,8 @@ import string
 import random
 from socket import timeout, error as SocketError
 from ssl import SSLError
+import datetime
+
 from .compat import (
     compat_urllib_request, compat_urllib_parse,
     compat_urllib_parse_urlparse, compat_urllib_error,
